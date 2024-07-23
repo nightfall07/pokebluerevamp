@@ -601,21 +601,29 @@ Trade_AnimCircledMon:
 	ldh [rBGP], a
 	ld hl, wShadowOAMSprite00TileID
 	ld de, $4
-	ld c, $14
-.loop
+	ld c, $4
+.monLoop
+	ld a, [hl]
+	xor 2
+	ld [hl], a
+	add hl, de
+	dec c
+	jr nz, .monLoop
+	ld c, $10
+.circleLoop
 	ld a, [hl]
 	xor ICONOFFSET
 	ld [hl], a
 	add hl, de
 	dec c
-	jr nz, .loop
+	jr nz, .circleLoop
 	pop hl
 	pop bc
 	pop de
 	ret
 
 Trade_WriteCircledMonOAM:
-	farcall WriteMonPartySpriteOAMBySpecies
+	farcall LoadSinglePartyMonSprite
 	call Trade_WriteCircleOAM
 
 Trade_AddOffsetsToOAMCoords:
