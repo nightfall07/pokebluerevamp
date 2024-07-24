@@ -18,9 +18,9 @@
 	     DOUBLE_EDGE,  BUBBLEBEAM,   FLAMETHROWER, ICE_BEAM,     BLIZZARD,     \
 	     HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         EARTHQUAKE,   DIG,          PSYCHIC_M,    TELEPORT,     \
-	     NIGHT_SHADE,  MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
+	     NIGHT_SHADE,  MIMIC,        DOUBLE_TEAM,  CONFUSE_RAY,  REFLECT,      BIDE,         \
 	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, \
-	     PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   SURF,         STRENGTH,     \
+	     PSYWAVE,      SUBSTITUTE,   SURF,         STRENGTH,     \
 	     FLASH
 	; end
 

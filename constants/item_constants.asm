@@ -189,22 +189,22 @@ DEF TM01 EQU const_value
 	add_tm NIGHT_SHADE  ; $E6
 	add_tm MIMIC        ; $E7
 	add_tm DOUBLE_TEAM  ; $E8
-	add_tm REFLECT      ; $E9
-	add_tm BIDE         ; $EA
-	add_tm METRONOME    ; $EB
-	add_tm SELFDESTRUCT ; $EC
-	add_tm SLUDGE       ; $ED
-	add_tm FIRE_BLAST   ; $EE
-	add_tm SWIFT        ; $EF
-	add_tm SKULL_BASH   ; $F0
-	add_tm DREAM_EATER  ; $F1
-	add_tm LEECH_LIFE   ; $F2
-	add_tm SKY_ATTACK   ; $F3
-	add_tm REST         ; $F4
-	add_tm THUNDER_WAVE ; $F5
-	add_tm PSYWAVE      ; $F6
-	add_tm ROCK_SLIDE   ; $F7
-	add_tm TRI_ATTACK   ; $F8
+	add_tm CONFUSE_RAY  ; $E9
+	add_tm REFLECT      ; $EA
+	add_tm BIDE         ; $EB
+	add_tm METRONOME    ; $EC
+	add_tm SELFDESTRUCT ; $ED
+	add_tm SLUDGE       ; $EE
+	add_tm FIRE_BLAST   ; $EF
+	add_tm SWIFT        ; $F0
+	add_tm SKULL_BASH   ; $F1
+	add_tm DREAM_EATER  ; $F2
+	add_tm LEECH_LIFE   ; $F3
+	add_tm SKY_ATTACK   ; $F4
+	add_tm REST         ; $F5
+	add_tm THUNDER_WAVE ; $F6
+	add_tm PSYWAVE      ; $F7
+	add_tm ROCK_SLIDE   ; $F8
 	add_tm SUPER_FANG   ; $F9
 	add_tm SUBSTITUTE   ; $FA
 ASSERT NUM_TMS == const_value - TM01, "NUM_TMS ({d:NUM_TMS}) does not match the number of add_tm definitions"

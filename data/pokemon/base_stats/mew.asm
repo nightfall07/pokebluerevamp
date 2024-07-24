@@ -20,10 +20,10 @@
 	     PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     MEGA_DRAIN,   SOLARBEAM,    DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      \
 	     EARTHQUAKE,   DIG,          PSYCHIC_M,    TELEPORT,     NIGHT_SHADE,  \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
+	     MIMIC,        DOUBLE_TEAM,  CONFUSE_RAY,  REFLECT,      BIDE,         METRONOME,    \
 	     SELFDESTRUCT, SLUDGE,       FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
 	     DREAM_EATER,  LEECH_LIFE,   SKY_ATTACK,   REST,         THUNDER_WAVE, \
-	     PSYWAVE,      ROCK_SLIDE,   TRI_ATTACK,   SUPER_FANG,   SUBSTITUTE,   \
+	     PSYWAVE,      ROCK_SLIDE,   SUPER_FANG,   SUBSTITUTE,   \
 	     CUT,          FLY,          SURF,         STRENGTH,     FLASH,        \
 	     UNUSED
 	; end

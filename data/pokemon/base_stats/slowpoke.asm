@@ -17,9 +17,9 @@
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     FLAMETHROWER, ICE_BEAM,     BLIZZARD,     PAY_DAY,      RAGE,         \
 	     EARTHQUAKE,   DIG,          PSYCHIC_M,    TELEPORT,     NIGHT_SHADE,  \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         FIRE_BLAST,   \
+	     MIMIC,        DOUBLE_TEAM,  CONFUSE_RAY,  REFLECT,      BIDE,         FIRE_BLAST,   \
 	     SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, PSYWAVE,      \
-	     TRI_ATTACK,   SUBSTITUTE,   SURF,         STRENGTH,     FLASH
+	     SUBSTITUTE,   SURF,         STRENGTH,     FLASH
 	; end
 
 	db 0 ; padding

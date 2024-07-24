@@ -17,7 +17,7 @@
 	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     ICE_BEAM,     BLIZZARD,     RAGE,         TELEPORT,     MIMIC,        \
 	     DOUBLE_TEAM,  REFLECT,      BIDE,         SELFDESTRUCT, SWIFT,        \
-	     REST,         TRI_ATTACK,   SUBSTITUTE,   SURF
+	     REST,         SUBSTITUTE,   SURF
 	; end
 
 	db 0 ; padding
