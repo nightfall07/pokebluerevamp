@@ -23,7 +23,7 @@
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
 	     SELFDESTRUCT, SLUDGE,       FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
 	     DREAM_EATER,  LEECH_LIFE,   SKY_ATTACK,   REST,         THUNDER_WAVE, \
-	     PSYWAVE,      EXPLOSION,    ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   \
+	     PSYWAVE,      ROCK_SLIDE,   TRI_ATTACK,   SUPER_FANG,   SUBSTITUTE,   \
 	     CUT,          FLY,          SURF,         STRENGTH,     FLASH,        \
 	     UNUSED
 	; end
