@@ -157,56 +157,56 @@ MACRO add_tm
 ENDM
 
 DEF TM01 EQU const_value
-	add_tm MEGA_PUNCH   ; $C9
-	add_tm RAZOR_WIND   ; $CA
-	add_tm SWORDS_DANCE ; $CB
-	add_tm WHIRLWIND    ; $CC
-	add_tm MEGA_KICK    ; $CD
-	add_tm TOXIC        ; $CE
-	add_tm BODY_SLAM    ; $D0
-	add_tm TAKE_DOWN    ; $D1
-	add_tm DOUBLE_EDGE  ; $D2
-	add_tm BUBBLEBEAM   ; $D3
-	add_tm FLAMETHROWER ; $D4
-	add_tm ICE_BEAM     ; $D5
-	add_tm BLIZZARD     ; $D6
-	add_tm HYPER_BEAM   ; $D7
-	add_tm PAY_DAY      ; $D8
-	add_tm SUBMISSION   ; $D9
-	add_tm COUNTER      ; $DA
-	add_tm SEISMIC_TOSS ; $DB
-	add_tm RAGE         ; $DC
-	add_tm MEGA_DRAIN   ; $DD
-	add_tm SOLARBEAM    ; $DE
-	add_tm DRAGON_RAGE  ; $DF
-	add_tm THUNDERBOLT  ; $E0
-	add_tm THUNDER      ; $E1
-	add_tm EARTHQUAKE   ; $E2
-	add_tm DIG          ; $E3
-	add_tm PSYCHIC_M    ; $E4
-	add_tm AGILITY      ; $CF
-	add_tm TELEPORT     ; $E5
-	add_tm NIGHT_SHADE  ; $E6
-	add_tm MIMIC        ; $E7
-	add_tm DOUBLE_TEAM  ; $E8
-	add_tm CONFUSE_RAY  ; $E9
-	add_tm REFLECT      ; $EA
-	add_tm BIDE         ; $EB
-	add_tm METRONOME    ; $EC
-	add_tm SELFDESTRUCT ; $ED
-	add_tm SLUDGE       ; $EE
-	add_tm FIRE_BLAST   ; $EF
-	add_tm SWIFT        ; $F0
-	add_tm SKULL_BASH   ; $F1
-	add_tm DREAM_EATER  ; $F2
-	add_tm LEECH_LIFE   ; $F3
-	add_tm SKY_ATTACK   ; $F4
-	add_tm REST         ; $F5
-	add_tm THUNDER_WAVE ; $F6
-	add_tm PSYWAVE      ; $F7
-	add_tm ROCK_SLIDE   ; $F8
-	add_tm SUPER_FANG   ; $F9
-	add_tm SUBSTITUTE   ; $FA
+	add_tm MEGA_PUNCH   ; $C9 (TM01)
+	add_tm PAY_DAY      ; $CA (TM02)
+	add_tm RAZOR_WIND   ; $CB (TM03)
+	add_tm SWORDS_DANCE ; $CC (TM04)
+	add_tm WHIRLWIND    ; $CD (TM05)
+	add_tm MEGA_KICK    ; $CE (TM06)
+	add_tm BODY_SLAM    ; $CF (TM07)
+	add_tm TAKE_DOWN    ; $D0 (TM08)
+	add_tm DOUBLE_EDGE  ; $D1 (TM09)
+	add_tm FLAMETHROWER ; $D2 (TM10)
+	add_tm ICE_BEAM     ; $D3 (TM11)
+	add_tm BLIZZARD     ; $D4 (TM12)
+	add_tm BUBBLEBEAM   ; $D5 (TM13)
+	add_tm HYPER_BEAM   ; $D6 (TM14)
+	add_tm SUBMISSION   ; $D7 (TM15)
+	add_tm COUNTER      ; $D8 (TM16)
+	add_tm SEISMIC_TOSS ; $D9 (TM17)
+	add_tm MEGA_DRAIN   ; $DA (TM18)
+	add_tm SOLARBEAM    ; $DB (TM19)
+	add_tm DRAGON_RAGE  ; $DC (TM20)
+	add_tm THUNDERBOLT  ; $DD (TM21)
+	add_tm THUNDER_WAVE ; $DE (TM22)
+	add_tm THUNDER      ; $DF (TM23)
+	add_tm EARTHQUAKE   ; $E0 (TM24)
+	add_tm DIG          ; $E1 (TM25)
+	add_tm TOXIC        ; $E2 (TM26)
+	add_tm PSYCHIC_M    ; $E3 (TM27)
+	add_tm AGILITY      ; $E4 (TM28)
+	add_tm RAGE         ; $E5 (TM29)
+	add_tm TELEPORT     ; $E6 (TM30)
+	add_tm NIGHT_SHADE  ; $E7 (TM31)
+	add_tm MIMIC        ; $E8 (TM32)
+	add_tm DOUBLE_TEAM  ; $E9 (TM33)
+	add_tm CONFUSE_RAY  ; $EA (TM34)
+	add_tm REFLECT      ; $EB (TM35)
+	add_tm BIDE         ; $EC (TM36)
+	add_tm METRONOME    ; $ED (TM37)
+	add_tm SELFDESTRUCT ; $EE (TM38)
+	add_tm SLUDGE       ; $EF (TM39)
+	add_tm FIRE_BLAST   ; $F0 (TM40)
+	add_tm SWIFT        ; $F1 (TM41)
+	add_tm SKULL_BASH   ; $F2 (TM42)
+	add_tm DREAM_EATER  ; $F3 (TM43)
+	add_tm LEECH_LIFE   ; $F4 (TM44)
+	add_tm SKY_ATTACK   ; $F5 (TM45)
+	add_tm PSYWAVE      ; $F6 (TM46)
+	add_tm REST         ; $F7 (TM47)
+	add_tm ROCK_SLIDE   ; $F8 (TM48)
+	add_tm SUPER_FANG   ; $F9 (TM49)
+	add_tm SUBSTITUTE   ; $FA (TM50)
 ASSERT NUM_TMS == const_value - TM01, "NUM_TMS ({d:NUM_TMS}) does not match the number of add_tm definitions"
 
 DEF NUM_TM_HM EQU NUM_TMS + NUM_HMS
