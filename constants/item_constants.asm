@@ -163,7 +163,6 @@ DEF TM01 EQU const_value
 	add_tm WHIRLWIND    ; $CC
 	add_tm MEGA_KICK    ; $CD
 	add_tm TOXIC        ; $CE
-	add_tm HORN_DRILL   ; $CF
 	add_tm BODY_SLAM    ; $D0
 	add_tm TAKE_DOWN    ; $D1
 	add_tm DOUBLE_EDGE  ; $D2
@@ -185,6 +184,7 @@ DEF TM01 EQU const_value
 	add_tm EARTHQUAKE   ; $E2
 	add_tm DIG          ; $E3
 	add_tm PSYCHIC_M    ; $E4
+	add_tm AGILITY      ; $CF
 	add_tm TELEPORT     ; $E5
 	add_tm NIGHT_SHADE  ; $E6
 	add_tm MIMIC        ; $E7
