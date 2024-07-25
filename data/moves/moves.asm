@@ -57,8 +57,8 @@ Moves:
 	move BITE,         FLINCH_SIDE_EFFECT1,         60, NORMAL,       100, 25
 	move GROWL,        ATTACK_DOWN1_EFFECT,          0, BIRD,         100, 40
 	move ROAR,         SWITCH_AND_TELEPORT_EFFECT,   0, BIRD,         100, 20
-	move SING,         SLEEP_EFFECT,                 0, BIRD,          55, 15
-	move SUPERSONIC,   CONFUSION_EFFECT,             0, BIRD,          55, 20
+	move SING,         SLEEP_EFFECT,                 0, BIRD,          60, 15
+	move SUPERSONIC,   CONFUSION_EFFECT,             0, BIRD,          60, 20
 	move SONICBOOM,    SPECIAL_DAMAGE_EFFECT,        1, NORMAL,        90, 20
 	move DISABLE,      DISABLE_EFFECT,               0, BIRD,          80, 20
 	move ACID,         DEFENSE_DOWN_SIDE_EFFECT,    50, POISON,       100, 25
