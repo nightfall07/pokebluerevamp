@@ -359,6 +359,8 @@ _OaksLabRivalLeaveItAllToMeText::
 	done
 
 _OaksLabScientistText::
-	text "I study #MON as"
-	line "PROF.OAK's AIDE."
+	text "We developed a new"
+	line "tool that is going"
+	cont "to revolutionize"
+	cont "the #MON field!"
 	done

@@ -11,8 +11,9 @@ _RedsHouse1FMomWakeUpText::
 
 _RedsHouse1FMomYouShouldRestText::
 	text "MOM: <PLAYER>!"
-	line "You should take a"
-	cont "quick rest."
+	line "Don't push your"
+	cont "#MON too hard."
+	cont "Take a quick rest."
 	prompt
 
 _RedsHouse1FMomLookingGreatText::
