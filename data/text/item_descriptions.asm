@@ -443,78 +443,78 @@ _TM19Description::
 	prompt
 
 _TM20Description::
-	text "A strong breath"
-	next "attack."
-	prompt
-
-_TM21Description::
 	text "An attack that may"
 	next "cause paralysis."
 	prompt
 
-_TM22Description::
+_TM21Description::
 	text "A move that may"
 	next "cause paralysis."
 	prompt
 
-_TM23Description::
+_TM22Description::
 	text "An attack that may"
 	next "cause paralysis."
 	prompt
 
-_TM24Description::
+_TM23Description::
 	text "Tough but useless"
 	next "vs. flying foes."
 	prompt
 
-_TM25Description::
+_TM24Description::
 	text "1st turn: Burrow"
 	next "2nd turn: Attack"
 	prompt
 
-_TM26Description::
+_TM25Description::
 	text "A poison move with"
 	next "increasing damage."
 	prompt
 
-_TM27Description::
+_TM26Description::
 	text "An attack that may"
 	next "lower SPECIAL."
 	prompt
 
-_TM28Description::
+_TM27Description::
 	text "Sharply increases"
 	next "the user's SPEED."
 	prompt
 
-_TM29Description::
+_TM28Description::
 	text "Raises ATTACK if"
 	next "the user is hit."
 	prompt
 
-_TM30Description::
+_TM29Description::
 	text "A move for fleeing"
 	next "from battle."
 	prompt
 
-_TM31Description::
+_TM30Description::
 	text "An attack that may"
 	next "lower SPECIAL."
 	prompt
 
-_TM32Description::
+_TM31Description::
 	text "Copies a move"
 	next "used by the foe."
 	prompt
 
-_TM33Description::
+_TM32Description::
 	text "Heightens"
 	next "evasiveness."
 	prompt
 
-_TM34Description::
+_TM33Description::
 	text "A move that"
 	next "causes confusion."
+	prompt
+
+_TM34Description::
+	text "Ups SPCL.DEF with"
+	next "a wall of light."
 	prompt
 
 _TM35Description::
