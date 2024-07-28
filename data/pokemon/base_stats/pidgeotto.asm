@@ -10,13 +10,13 @@
 	INCBIN "gfx/pokemon/front/pidgeotto.pic", 0, 1 ; sprite dimensions
 	dw PidgeottoPicFront, PidgeottoPicBack
 
-	db GUST, SAND_ATTACK, NO_MOVE, NO_MOVE ; level 1 learnset
+	db TACKLE, SAND_ATTACK, GUST, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm RAZOR_WIND,   WHIRLWIND,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
-	     RAGE,         MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     SWIFT,        SKY_ATTACK,   REST,         SUBSTITUTE,   FLY
+	tmhm RAZOR_WIND,   WHIRLWIND,    TAKE_DOWN,    DOUBLE_EDGE,  AGILITY,      \
+	     RAGE,         MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
+	     REST,         SUBSTITUTE,   FLY
 	; end
 
 	db 0 ; padding
