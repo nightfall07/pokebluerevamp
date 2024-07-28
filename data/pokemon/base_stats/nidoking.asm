@@ -1,6 +1,6 @@
 	db DEX_NIDOKING ; pokedex id
 
-	db  81,  92,  77,  85,  75
+	db  81, 102,  77,  85,  75
 	;   hp  atk  def  spd  spc
 
 	db POISON, GROUND ; type
@@ -10,17 +10,17 @@
 	INCBIN "gfx/pokemon/front/nidoking.pic", 0, 1 ; sprite dimensions
 	dw NidokingPicFront, NidokingPicBack
 
-	db TACKLE, HORN_ATTACK, POISON_STING, THRASH ; level 1 learnset
+	db LEER, HORN_ATTACK, POISON_STING, THRASH ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    \
-	     TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   FLAMETHROWER, ICE_BEAM,     \
-	     BLIZZARD,     HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      \
-	     SEISMIC_TOSS, RAGE,         THUNDERBOLT,  THUNDER,      EARTHQUAKE,   \
-	     NIGHT_SHADE,  MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     FIRE_BLAST,   SKULL_BASH,   REST,         ROCK_SLIDE,   SUBSTITUTE,   \
-	     SURF,         STRENGTH
+	tmhm MEGA_PUNCH,   PAY_DAY,      MEGA_KICK,    BODY_SLAM,    TAKE_DOWN,    \
+	     DOUBLE_EDGE,  FLAMETHROWER, ICE_BEAM,     BLIZZARD,     BUBBLEBEAM,   \
+		 HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, THUNDERBOLT,  \
+		 THUNDER,      EARTHQUAKE,   DIG,          TOXIC,        RAGE,         \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         SLUDGE,       FIRE_BLAST,   \
+		 SKULL_BASH,   REST,         ROCK_SLIDE,   SUPER_FANG,   SUBSTITUTE,   \
+		 CUT,          SURF,         STRENGTH
 	; end
 
 	db 0 ; padding

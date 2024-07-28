@@ -10,14 +10,15 @@
 	INCBIN "gfx/pokemon/front/nidoranm.pic", 0, 1 ; sprite dimensions
 	dw NidoranMPicFront, NidoranMPicBack
 
-	db LEER, TACKLE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db LEER, PECK, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     BLIZZARD,     RAGE,         THUNDERBOLT,  THUNDER,      MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,      BIDE,         SKULL_BASH,   REST,         \
-	     SUBSTITUTE
+	tmhm PAY_DAY,      BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  ICE_BEAM,     \
+	     BLIZZARD,     BUBBLEBEAM,   COUNTER,      THUNDERBOLT,  THUNDER,      \
+		 DIG,          TOXIC,        RAGE,         MIMIC,        DOUBLE_TEAM,  \
+	     BIDE,         SLUDGE,       SKULL_BASH,   REST,         SUPER_FANG,   \
+		 SUBSTITUTE,   CUT
 	; end
 
 	db 0 ; padding
