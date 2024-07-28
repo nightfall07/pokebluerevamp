@@ -82,18 +82,18 @@ ViridianCityFisherYouCanHaveThisText::
 	cont "have this TM."
 	prompt
 
-_ViridianCityFisherReceivedTM42Text::
+_ViridianCityFisherReceivedTM43Text::
 	text "<PLAYER> received"
-	line "TM42!@"
+	line "TM43!@"
 	text_end
 
-_ViridianCityFisherTM42ExplanationText::
-	text "TM42 contains"
+_ViridianCityFisherTM43ExplanationText::
+	text "TM43 contains"
 	line "DREAM EATER..."
 	cont "...Snore..."
 	done
 
-_ViridianCityFisherTM42NoRoomText::
+_ViridianCityFisherTM43NoRoomText::
 	text "You have too much"
 	line "stuff already."
 	done

@@ -13,7 +13,7 @@ _ViridianMartClerkParcelQuestText::
 	line "OAK, right?"
 
 	para "His order came in."
-	line "Will you take it"
+	line "Could you take it"
 	cont "to him?"
 
 	para "<PLAYER> got"
@@ -26,6 +26,9 @@ _ViridianMartYoungsterText::
 	done
 
 _ViridianMartCooltrainerMText::
-	text "No! POTIONs are"
-	line "all sold out."
+	text "POTIONs can heal"
+	line "your #MON for"
+	cont "20HP. Carrying"
+	cont "multiple of them"
+	cont "is very important."
 	done
