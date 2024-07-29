@@ -359,8 +359,9 @@ _OaksLabRivalLeaveItAllToMeText::
 	done
 
 _OaksLabScientistText::
-	text "We developed a new"
-	line "tool that is going"
-	cont "to revolutionize"
+	text "We developed a"
+	line "new device that"
+	cont "is going to"
+	cont "revolutionize"
 	cont "the #MON field!"
 	done
