@@ -59,6 +59,8 @@ TrainerDataPointers:
 	; null-terminated
 
 YoungsterData:
+; Route 2
+	db 6, RATTATA, 0
 ; Route 3
 	db 11, RATTATA, EKANS, 0
 	db 14, SPEAROW, 0
@@ -104,6 +106,8 @@ BugCatcherData:
 	db 20, CATERPIE, WEEDLE, VENONAT, 0
 
 LassData:
+; Route 2
+	db 5, PIDGEY, NIDORAN_F, 0
 ; Route 3
 	db 9, PIDGEY, PIDGEY, 0
 	db 10, RATTATA, NIDORAN_M, 0

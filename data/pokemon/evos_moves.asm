@@ -1401,18 +1401,21 @@ KakunaEvosMoves:
 	db EVOLVE_LEVEL, 10, BEEDRILL
 	db 0
 ; Learnset
+	db 7, HARDEN
 	db 0
 
 BeedrillEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 12, FURY_ATTACK
-	db 16, FOCUS_ENERGY
-	db 20, TWINEEDLE
-	db 25, RAGE
-	db 30, PIN_MISSILE
-	db 35, AGILITY
+	db 10, FURY_ATTACK
+	db 13, FOCUS_ENERGY
+	db 16, TWINEEDLE
+	db 20, RAGE
+	db 24, AGILITY
+	db 29, PIN_MISSILE
+	db 34, SWORDS_DANCE
+	db 39, THRASH
 	db 0
 
 MissingNo73EvosMoves:
@@ -1502,19 +1505,22 @@ MetapodEvosMoves:
 	db EVOLVE_LEVEL, 10, BUTTERFREE
 	db 0
 ; Learnset
+	db 7, HARDEN
 	db 0
 
 ButterfreeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 12, CONFUSION
-	db 15, POISONPOWDER
-	db 16, STUN_SPORE
-	db 17, SLEEP_POWDER
-	db 21, SUPERSONIC
-	db 26, WHIRLWIND
-	db 32, PSYBEAM
+	db 10, CONFUSION
+	db 12, GUST
+	db 15, STUN_SPORE
+	db 18, SLEEP_POWDER
+	db 22, PSYBEAM
+	db 26, SUPERSONIC
+	db 31, RAZOR_WIND
+	db 36, MEGA_DRAIN
+	db 42, WHIRLWIND
 	db 0
 
 MachampEvosMoves:
@@ -2121,12 +2127,14 @@ OddishEvosMoves:
 	db EVOLVE_LEVEL, 21, GLOOM
 	db 0
 ; Learnset
-	db 15, POISONPOWDER
-	db 17, STUN_SPORE
-	db 19, SLEEP_POWDER
-	db 24, ACID
-	db 33, PETAL_DANCE
-	db 46, SOLARBEAM
+	db 6, POISONPOWDER
+	db 9, STUN_SPORE
+	db 13, ACID
+	db 18, SLEEP_POWDER
+	db 21, MEGA_DRAIN
+	db 25, GROWTH
+	db 30, PETAL_DANCE
+	db 35, SOLARBEAM
 	db 0
 
 GloomEvosMoves:
@@ -2134,21 +2142,22 @@ GloomEvosMoves:
 	db EVOLVE_ITEM, LEAF_STONE, 1, VILEPLUME
 	db 0
 ; Learnset
-	db 15, POISONPOWDER
-	db 17, STUN_SPORE
-	db 19, SLEEP_POWDER
-	db 28, ACID
-	db 38, PETAL_DANCE
-	db 52, SOLARBEAM
+	db 6, POISONPOWDER
+	db 9, STUN_SPORE
+	db 13, ACID
+	db 18, SLEEP_POWDER
+	db 21, MEGA_DRAIN
+	db 27, GROWTH
+	db 35, PETAL_DANCE
+	db 43, SOLARBEAM
 	db 0
 
 VileplumeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, POISONPOWDER
-	db 17, STUN_SPORE
-	db 19, SLEEP_POWDER
+	db 43, PETAL_DANCE
+	db 59, SOLARBEAM
 	db 0
 
 BellsproutEvosMoves:
@@ -2156,13 +2165,14 @@ BellsproutEvosMoves:
 	db EVOLVE_LEVEL, 21, WEEPINBELL
 	db 0
 ; Learnset
-	db 13, WRAP
-	db 15, POISONPOWDER
-	db 18, SLEEP_POWDER
-	db 21, STUN_SPORE
-	db 26, ACID
-	db 33, RAZOR_LEAF
-	db 42, SLAM
+	db 6, CONSTRICT
+	db 9, POISONPOWDER
+	db 13, GROWTH
+	db 18, ACID
+	db 21, RAZOR_LEAF
+	db 25, SLAM	
+	db 30, WRAP
+	db 35, SLEEP_POWDER
 	db 0
 
 WeepinbellEvosMoves:
@@ -2170,20 +2180,20 @@ WeepinbellEvosMoves:
 	db EVOLVE_ITEM, LEAF_STONE, 1, VICTREEBEL
 	db 0
 ; Learnset
-	db 13, WRAP
-	db 15, POISONPOWDER
-	db 18, SLEEP_POWDER
-	db 23, STUN_SPORE
-	db 29, ACID
-	db 38, RAZOR_LEAF
-	db 49, SLAM
+	db 6, CONSTRICT
+	db 9, POISONPOWDER
+	db 13, GROWTH
+	db 18, ACID
+	db 21, RAZOR_LEAF
+	db 27, SLAM	
+	db 35, WRAP
+	db 43, SLEEP_POWDER
 	db 0
 
 VictreebelEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 13, WRAP
-	db 15, POISONPOWDER
-	db 18, SLEEP_POWDER
+	db 43, WRAP
+	db 59, SLEEP_POWDER
 	db 0
