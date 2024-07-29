@@ -1829,9 +1829,30 @@ CoinCaseNumCoinsText:
 ItemUseOldRod:
 	call FishingInit
 	jp c, ItemUseNotTime
-	lb bc, 5, MAGIKARP
-	ld a, $1 ; set bite
+.RandomLoop
+	call Random
+	srl a
+	jr c, .SetBite
+	and %11
+	cp 4
+	jr nc, .RandomLoop
+	; choose which monster appears
+	ld hl, OldRodMons
+	add a
+	ld c, a
+	ld b, 0
+	add hl, bc
+	ld b, [hl]
+	inc hl
+	ld c, [hl]
+	and a
+.SetBite
+	ld a, 0
+	rla
+	xor 1
 	jr RodResponse
+
+INCLUDE "data/wild/old_rod.asm"
 
 ItemUseGoodRod:
 	call FishingInit
@@ -1841,7 +1862,7 @@ ItemUseGoodRod:
 	srl a
 	jr c, .SetBite
 	and %11
-	cp 2
+	cp 4
 	jr nc, .RandomLoop
 	; choose which monster appears
 	ld hl, GoodRodMons

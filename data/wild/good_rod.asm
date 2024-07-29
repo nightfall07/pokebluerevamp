@@ -1,5 +1,7 @@
-; random choice of 2 good rod encounters
+; random choice of 4 good rod encounters
 GoodRodMons:
 	; level, species
-	db 10, GOLDEEN
-	db 10, POLIWAG
+	db 15, TENTACOOL
+    db 15, KRABBY
+    db 15, HORSEA
+    db 10, MAGIKARP
