@@ -1,20 +1,15 @@
 CeruleanCave1FWildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 46, GOLBAT
-	db 46, HYPNO
-	db 46, MAGNETON
-	db 49, DODRIO
-	db 49, VENOMOTH
-IF DEF(_RED)
-	db 52, ARBOK
-ENDC
-IF DEF(_BLUE)
-	db 52, SANDSLASH
-ENDC
-	db 49, KADABRA
-	db 52, PARASECT
-	db 53, RAICHU
-	db 53, DITTO
+	db 53, GOLBAT ; 20%
+	db 53, PARASECT ; 20%
+	db 51, KADABRA ; 15%
+	db 53, VENOMOTH ; 10%
+	db 54, GOLDUCK ; 10%
+	db 50, DITTO ; 10%
+	db 54, HYPNO ; 5%
+	db 52, DITTO ; 5%
+	db 55, SLOWBRO ; 4%
+	db 58, SLOWBRO ; 1%
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

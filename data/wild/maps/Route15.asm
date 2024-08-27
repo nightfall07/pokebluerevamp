@@ -1,27 +1,27 @@
 Route15WildMons:
 	def_grass_wildmons 15 ; encounter rate
 IF DEF(_RED)
-	db 24, ODDISH
-	db 26, DITTO
-	db 23, PIDGEY
-	db 26, VENONAT
-	db 22, ODDISH
-	db 28, VENONAT
-	db 26, ODDISH
-	db 30, GLOOM
+	db 28, ODDISH ; 20%
+	db 28, VENONAT ; 20%
+	db 31, PIDGEOTTO ; 15%
+	db 30, ODDISH ; 10%
+	db 32, GLOOM ; 10%
+	db 34, TANGELA ; 10%
+	db 34, GLOOM ; 5%
+	db 30, VENONAT ; 5%
 ENDC
 IF DEF(_BLUE)
-	db 24, BELLSPROUT
-	db 26, DITTO
-	db 23, PIDGEY
-	db 26, VENONAT
-	db 22, BELLSPROUT
-	db 28, VENONAT
-	db 26, BELLSPROUT
-	db 30, WEEPINBELL
+	db 28, VENONAT ; 20%
+	db 28, BELLSPROUT ; 20%
+	db 31, PIDGEOTTO ; 15%
+	db 30, BELLSPROUT ; 10%
+	db 32, WEEPINBELL ; 10%
+	db 34, TANGELA ; 10%
+	db 30, VENONAT ; 5%
+	db 34, WEEPINBELL ; 5%
 ENDC
-	db 28, PIDGEOTTO
-	db 30, PIDGEOTTO
+	db 35, VENOMOTH ; 4%
+	db 38, VENOMOTH ; 1%
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

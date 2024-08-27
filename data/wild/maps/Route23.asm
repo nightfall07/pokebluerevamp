@@ -1,25 +1,20 @@
 Route23WildMons:
 	def_grass_wildmons 10 ; encounter rate
+	db 38, NIDORINA ; 20%
+	db 38, PONYTA ; 20%
+	db 42, FEAROW ; 15%
+	db 38, NIDORINO ; 10%
+	db 38, NIDORINO ; 10%
 IF DEF(_RED)
-	db 26, EKANS
+	db 43, ARBOK ; 10%
 ENDC
 IF DEF(_BLUE)
-	db 26, SANDSHREW
+	db 43, SANDSLASH ; 10%
 ENDC
-	db 33, DITTO
-	db 26, SPEAROW
-	db 38, FEAROW
-	db 38, DITTO
-	db 38, FEAROW
-IF DEF(_RED)
-	db 41, ARBOK
-ENDC
-IF DEF(_BLUE)
-	db 41, SANDSLASH
-ENDC
-	db 43, DITTO
-	db 41, FEAROW
-	db 43, FEAROW
+	db 43, PRIMEAPE ; 5%
+	db 45, PRIMEAPE ; 5%
+	db 45, RAPIDASH ; 4%
+	db 48, RAPIDASH ; 1%
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
